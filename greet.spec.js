@@ -1,6 +1,6 @@
 import { greet } from "./greet.js";
 describe('test for the greet function', () => {
-    it('return the greeting of Thommas', () => {
+    it('return the greeting of Thomas', () => {
       const result = greet('Thomas')
       expect(result).toBe('Hello Coach!')
     })
